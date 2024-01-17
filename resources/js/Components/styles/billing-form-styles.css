@@ -1,0 +1,41 @@
+form {
+    text-align: right;
+    margin-right: 370px; 
+    margin-left: 0px;
+  }
+  select {
+    color: black; 
+    font-size: 14px; 
+  }
+  /* Estilo específico para la opción con value="" cuando el select está cerrado */
+  select option[value=""] {
+    font-size: 5px; 
+    color: gray; 
+  }
+  
+  /* Estilo específico para la opción con value="" cuando el select está abierto */
+  select:focus option[value=""] {
+    font-size: 16px; 
+    color: gray; 
+  }
+  .red {
+    color: rgb(252, 4, 4);
+  }
+  
+  input {
+    width: 420px;
+  }
+  
+  label {
+    width: 500px;
+    margin-right: 5px;
+  }
+  
+  button {
+    margin-right: 12px;
+  }
+
+  #downloadButton:disabled {
+    background-color: grey;
+  }
+  
